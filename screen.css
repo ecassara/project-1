@@ -58,9 +58,14 @@ h1 {
 
 }
 
+
+
 p {
+	color: darkgrey;
   font-size: 1.25em;
   padding-bottom: .5em;
   padding-left: 4em;
   padding-right: 4em;
 }
+
+body {background-color: lightgrey;}
