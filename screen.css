@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
 
 a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit;}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 
 /* Begin site styles... */
 
 html {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  max-width: 100%;
+  margin-left: 7em;
+  margin-right: 7em;
+
 }
 
 body {
@@ -13,18 +18,18 @@ body {
 
 h1 {
   color: rgba(30,30,90);
-  font-size: 3em;
-  padding-top: .5em;
-  padding-bottom: .5em;
-  padding-left: 1em;
-  padding-right: 1em;
+  font-size: 2.5em; /* 40px / 16px = 2.5em */
+  padding-top: .5em;/*20px/40px=.5em*/
+  padding-bottom: .5em;/*20px/40px=.5em*/
+  border-color: black;
+  border-bottom: .4375em;
+
 }
 
 p {
+  text-indent: 2em;
   color: rgba(30,30,30);
-  font-size: 1.25em;
-  line-height: 1.1em;
-  padding-bottom: .5em;
-  padding-left: 2em;
-  padding-right: 2em;
+  font-size: 1.125em; /* 18px / 16px = 1em*/
+  line-height: 1.22222em; /*22px /18px = 1.222222*/
+  padding-top: 0.77777em;/*14px/18=.77777em*/
 }
